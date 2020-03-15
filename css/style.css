@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+
+body {
+    background-color: currentColor;
+}
+
+.buttons {
+ margin-left: 500px;
+ margin-top: 20px;
+}
+
+.startButton {
+    margin: 15px;
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.strictButton {
+    margin: 15px;
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.onOffButton {
+    margin: 15px;
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.turn {
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Michroma', sans-serif;
+    font-size: 33px;
+    height: 50px;
+    width: 80px;
+    margin-left: 576px;
+    margin-top: 243px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    border-radius: 35px;
+}
+
+#red {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: darkred;
+    height: 160px;
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 60px 10px 10px 10px;
+
+}
+
+#red.active {
+    background-color: #ffb3b3;
+    border-radius: 60px 10px 10px 10px;
+
+}
+
+#blue {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: darkblue;
+    height: 160px;
+    width: 160px;
+    margin-top: 100px;
+    border-radius: 10px 60px 10px 10px;
+}
+
+#blue.active {
+    background-color: #b3d9ff;
+    border-radius: 10px 60px 10px 10px;
+}
+
+#yellow {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: #cc9900;
+    height: 160px;
+    width: 160px;
+    margin-left: 450px;
+    border-radius: 10px 10px 10px 60px;
+}
+
+#yellow.active {
+    background-color: #ffffb3;
+    border-radius: 10px 10px 10px 60px;
+}
+
+
+#green {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: darkgreen;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px 10px 60px 10px;
+}
+
+
+#green.active {
+    background-color: #b3ffb3;
+    border-radius: 10px 10px 60px 10px;
+}
